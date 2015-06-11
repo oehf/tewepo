@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.6.0_22" class="java.beans.XMLDecoder">
+	<object class="org.openehealth.tewepo.twp.dmp.dmc.server.email.xml.DicomMailRecipient">
+		<void property="id">
+			<string>1</string>
+		</void>
+		<void property="institution">
+			<string>Testunternehmen</string>
+		</void>
+		<void property="location">
+			<string>Teststadt</string>
+		</void>
+		<void property="mailAddress1">
+			<string>test@test.de</string>
+		</void>
+		<void property="mailAddress2">
+			<string>test@test.de</string>
+		</void>
+		<void property="mailAddress3">
+			<string>test@test.de</string>
+		</void>
+		<void property="publicKeyId">
+			<string>12345DF</string>
+		</void>
+		<void property="recipient">
+			<string>Test Testmann</string>
+		</void>
+	</object>
+</java>

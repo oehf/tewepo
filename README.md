@@ -1,2 +1,3 @@
-# tewepo
-TEWEPO Teleradiology Webportal 
+# TEWEPO - Teleradiologie Webportal
+
+More information is available at: UNDERCONSTRUCTION

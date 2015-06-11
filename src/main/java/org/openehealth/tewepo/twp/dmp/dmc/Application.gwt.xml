@@ -1,0 +1,25 @@
+<!DOCTYPE module PUBLIC "//gwt-module/" "http://google-web-toolkit.googlecode.com/svn/tags/1.6.2/distro-source/core/src/gwt-module.dtd">
+<module rename-to="DICOM_Mail_Client">
+
+	<!-- Inherit the core Web Toolkit stuff. -->
+	<inherits name='com.google.gwt.user.User' />
+
+	<!--  inherit css based theme -->
+	<!-- <inherits name='com.google.gwt.user.theme.standard.Standard' /> -->
+
+	<inherits name="gwtupload.GWTUpload" />
+
+	<!-- SmartGwt config -->
+	<inherits name='com.smartgwt.SmartGwt' />
+	<inherits name='com.smartclient.theme.fleet.Fleet' />
+
+	<!-- Specify the app entry point class. -->
+	<!-- <entry-point class='org.openehealth.tewepo.twp.dmp.dmc.client.Application' /> -->
+
+	<!-- Specify the application specific style sheet. -->
+	<stylesheet src='Application.css' />
+	<stylesheet src="Upload.css"/>
+	
+	<entry-point class="org.openehealth.tewepo.twp.dmp.dmc.client.GwtGuiDemo" />
+	<stylesheet src="resources/css/style.css"/>
+</module>
